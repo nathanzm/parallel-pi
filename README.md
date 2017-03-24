@@ -2,9 +2,9 @@
 ## Desciption:
 This Python program calculates the value of pi through the simulation of throwing darts at dartboards. 
 
-Specifically, there are multiple processes run in parallel to represent varied simulations of dartboards, which allows for many estimated values of pi to be combined into an average for a more accurate result.
+Specifically, there are multiple processes run in parallel to represent varied simulations of dartboards, which allows for many estimated values of pi to later be combined into an average for a more accurate result.
 
-In general, the more darts thrown and the more total dartboard simulations there are, the more accurate the calculation of pi is. It is also interesting to see how different execution times react to the number of processes generated for the program. These results will vary depending on your processor, but generally the program becomes increasingly deficient once the number of processes exceeds your CPU's number of cores.
+In general, the more darts thrown and the more total dartboard simulations there are, the more accurate the calculation of pi is. It is also interesting to see how different execution times react to the number of processes generated for the program. These results will vary depending on your processor, but generally the program becomes increasingly less efficient once the number of processes exceeds your CPU's number of cores.
 
 ## Usage:
 ### Input:
